@@ -1,24 +1,50 @@
 {
-  "name": "boilerplate-nextjs-ts",
+  "name": "nextjs-ts-boilerplate",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepare": "husky install"
+  },
+  "babelMacros": {
+    "twin": {
+      "preset": "styled-components"
+    }
   },
   "dependencies": {
     "next": "12.3.1",
+    "next-seo": "^5.6.0",
+    "prettier": "^2.7.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.6.0",
+    "react-scroll": "^1.8.8",
+    "styled-components": "^5.3.6",
+    "vercel": "^28.4.11"
   },
   "devDependencies": {
     "@types/node": "18.11.0",
-    "@types/react": "18.0.21",
-    "@types/react-dom": "18.0.6",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-scroll": "^1.8.4",
+    "@types/styled-components": "^5.1.26",
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
+    "autoprefixer": "^10.4.12",
+    "babel-plugin-macros": "^3.1.0",
+    "babel-plugin-styled-components": "^2.0.7",
     "eslint": "8.25.0",
     "eslint-config-next": "12.3.1",
-    "typescript": "4.8.4"
+    "eslint-config-prettier": "^8.5.0",
+    "framer-motion": "^7.6.1",
+    "husky": "^8.0.1",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.1.8",
+    "twin.macro": "^2.8.2",
+    "typescript": "^4.8.4",
+    "usehooks-ts": "^2.9.1"
   }
 }

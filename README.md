@@ -1,34 +1,103 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Boilerplate with Styled Components, Husky, and more!
 
-## Getting Started
+A template for **Next.js** projects using TypeScript and other packages. All packages have been pre-configured to work right out of the box. It can easily be deployed to Vercel and it is what I personally use when creating a new project.
 
-First, run the development server:
+## **⚠️ Repo Update**
+
+`Current Next.js Version: 12.3.1`
+
+Next.js just had their 2022 conference unveiling **Next.js 13** with major new features and optimizations. I will do my best to update this branch to **Next.js 13** to work with the packages below if they allow me to, as some packages may need to be updated to work properly.
+
+> To learn more about **Next.js 13**, visit their Blog page [here](https://nextjs.org/blog/next-13).
+
+>
+
+> If you want to learn about the new folder structure within **Next.js 13**, refer to this amazing YouTube video [here](https://www.youtube.com/watch?v=xXwxEudjiAY).
+
+### **Happy Coding! 🚀**
+
+<br>
+
+## Packages Include
+
+- [babel-plugin-macros](https://www.npmjs.com/package/babel-plugin-macros)
+
+- [eslint](https://www.npmjs.com/package/eslint)
+
+- [framer-motion](https://www.npmjs.com/package/framer-motion)
+
+- [husky](https://www.npmjs.com/package/husky)
+
+- [next-seo](https://www.npmjs.com/package/next-seo)
+
+- [postcss](https://www.npmjs.com/package/postcss)
+
+- [prettier](https://www.npmjs.com/package/prettier)
+
+- [react-icons](https://www.npmjs.com/package/react-icons)
+
+- [react-scroll](https://www.npmjs.com/package/react-scroll)
+
+- [styled-components](https://www.npmjs.com/package/styled-components)
+
+- [tailwindcss](https://www.npmjs.com/package/tailwindcss)
+
+- [twin.macro](https://www.npmjs.com/package/twin.macro)
+
+- [typescript](https://www.npmjs.com/package/typescript)
+
+- [usehooks-ts](https://www.npmjs.com/package/usehooks-ts)
+
+- [vercel](https://www.npmjs.com/package/vercel)
+
+### Clone Repo
 
 ```bash
-npm run dev
-# or
-yarn dev
+
+
+
+git clone https://github.com/OkhDev/nextjs-ts-boilerplate.git
+
+
+
+#or
+
+
+
+git clone git@github.com:OkhDev/nextjs-ts-boilerplate.git
+
+
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Navigate to Cloned Repo
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+cd nextjs-ts-boilerplate
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```
 
-## Deploy on Vercel
+### Install Dependencies
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+yarn install
+
+
+
+#or
+
+
+
+npm install
+
+
+
+```
