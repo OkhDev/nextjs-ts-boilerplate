@@ -5,10 +5,10 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    fontFamily: {
-      body: ['', ''],
-    },
     extend: {
+      fontFamily: {
+        body: ['', ''],
+      },
       colors: {
         flatblack: '#313639',
       },

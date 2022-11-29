@@ -6,6 +6,9 @@ const nextConfig = {
     locales: ['en'],
     defaultLocale: 'en',
   },
+  experimental: {
+    appDir: false,
+  },
 }
 
 module.exports = nextConfig
